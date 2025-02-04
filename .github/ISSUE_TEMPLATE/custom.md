@@ -1,10 +1,9 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
+name: GitHub Membership Request
+about: Request to join the organization
+title: 'Request Membership'
+labels: membership
 assignees: ''
-
 ---
 
 ### GitHub Username
