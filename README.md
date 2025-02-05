@@ -5,4 +5,3 @@
 
 ## Blog Posts
 
-- [How to Compile GitHub Chat Instructions Files to Generate Azure Resources Files in Bicep](blog/compile-github-chat-to-azure-bicep.md)
