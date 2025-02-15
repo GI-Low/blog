@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Posts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Blog Posts</h1>
+  </header>
+  <main>
+    {% for post in site.posts %}
+      <article>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>Published on {{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</p>
+        <div class="post-content">
+          {{ post.excerpt }}
+        </div>
+        <!-- AddThis Social Media Sharing Buttons -->
+        <div class="addthis_inline_share_toolbox"></div>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f8b8b8b8b8b8b8b"></script>
+      </article>
+    {% endfor %}
+  </main>
+  <footer>
+    <p>&copy; 2023 GitHub Lowlands Community</p>
+  </footer>
+</body>
+</html>
