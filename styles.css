@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button#mode-toggle {
+    background-color: #555;
+    color: #fff;
+}
+
+button#mode-toggle:hover {
+    background-color: #777;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode header {
+    background-color: #555;
+}
+
+.dark-mode button#mode-toggle {
+    background-color: #777;
+}
+
+.dark-mode button#mode-toggle:hover {
+    background-color: #999;
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+.tag {
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.tag:hover {
+    background-color: #ddd;
+}
+
+.share-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.share-button:hover {
+    background-color: #0056b3;
+}

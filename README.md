@@ -4,3 +4,12 @@
 </p>
 
 ## Blog Posts
+
+### Blog Page
+Check out our [blog page](blog.html) for the latest articles, comments, likes, and more.
+
+### Subscription and Follow
+Subscribe and follow our GitHub Pages to get notified when new articles are published.
+
+### Social Media Sharing
+Share our articles on BlueSky, LinkedIn, X, and other platforms using the social media sharing buttons on each blog post.
